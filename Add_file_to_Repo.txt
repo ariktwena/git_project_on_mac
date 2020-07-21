@@ -1,7 +1,7 @@
 How to integrate GitHub on a mac
 
 
-//To add files from Terminal
+//To add Repo from Git
 1. Make a repository in GitHub
 
 2. Copy the GitHub link
@@ -13,29 +13,46 @@ example: git clone https://github.com/ariktwena/git_project_on_mac.git
 
 5. GitHub will create a folder with the repository name, and a invisible .git file inside
 
-6. Copy paste your files to the folder
 
-7. Navigate inside the folder from the Terminal (We have to be inside for .git to work)
+//Push files to Repo Git
+1. Got to the git folder from the Terminal
+
+2. Copy paste your files to the folder (User Terminal or Finder)
+
+3. Navigate inside the folder from the Terminal (We have to be inside for .git to work)
 example: cd git_project_on_mac
 
-8. To see the files in the folder write: ls
+4. To see the files in the folder write: ls
 
-9. To see the files that are not updated in the GitHun Repo, write: git status
+5. To see the files that are not updated in the GitHun Repo, write: git status
 
-10. To add the files write: 
+6. To add the files write: 
 git add filename.txt 
 OR 
 git add . 
 (Adds all files)
 
-11. To se status again if you want, write: git status
+7. To se status again if you want, write: git status
 
-12. To commit the files, write: git commit -m "custom message here to developers"
+8. To commit the files, write: git commit -m "custom message here to developers"
+To exit if you forget a message, write: wq (enter)
 
-13. To push the files, write: git push
+9. To push the files, write: git push
 
 
 //To pull files from Terminal
+1. Got to the git folder from the Terminal
+
+2. Pull the newest data from git Repo by writing: git pull
+
+
+//Share project to Git Repo using PHPStrom
+1. Click on the folder/project you want to share
+
+2. Press VCS -> Import into version controle -> share project on GitHub
+
+3. Write a Repo name. Make it private on/off. Paste the Repo URL into the Remote and replace "origin"
+
 
 
 
