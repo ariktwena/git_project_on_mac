@@ -14,7 +14,31 @@ example: git clone https://github.com/ariktwena/git_project_on_mac.git
 5. GitHub will create a folder with the repository name, and a invisible .git file inside
 
 
-//Push files to Repo Git (master)
+//See Branches
+1. Write: git branch
+
+
+//Add a new branch to work on (development), that doesn't effect the Master
+1. Write: git branch branch_name
+
+
+//Switch to another branch or Master
+1. Write: git checkout branch_name
+
+2. add, commit and push the files you are working on via git (next topic)
+
+3. Create a pull request on GitHub.com 
+
+4. The person that reviews the changes can review, merge and delete the branch
+
+
+//Merge master files into branch
+1. Write: git checkout branch_name
+
+2. Write git merge master
+
+
+//Push files to Repo Git (master/branch)
 1. Got to the git folder from the Terminal
 
 2. Copy paste your files to the folder (User Terminal or Finder)
