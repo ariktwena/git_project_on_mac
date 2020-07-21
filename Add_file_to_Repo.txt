@@ -1,0 +1,43 @@
+How to integrate GitHub on a mac
+
+
+//To add files from Terminal
+1. Make a repository in GitHub
+
+2. Copy the GitHub link
+
+3. Open Terminal and navigate to the folder where you want your root GitHub folder to be
+
+4. In the Terminal write: git clone ‘url’
+example: git clone https://github.com/ariktwena/git_project_on_mac.git
+
+5. GitHub will create a folder with the repository name, and a invisible .git file inside
+
+6. Copy paste your files to the folder
+
+7. Navigate inside the folder from the Terminal (We have to be inside for .git to work)
+example: cd git_project_on_mac
+
+8. To see the files in the folder write: ls
+
+9. To see the files that are not updated in the GitHun Repo, write: git status
+
+10. To add the files write: 
+git add filename.txt 
+OR 
+git add . 
+(Adds all files)
+
+11. To se status again if you want, write: git status
+
+12. To commit the files, write: git commit -m "custom message here to developers"
+
+13. To push the files, write: git push
+
+
+//To pull files from Terminal
+
+
+
+
+
