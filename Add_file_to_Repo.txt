@@ -35,7 +35,7 @@ example: git clone https://github.com/ariktwena/git_project_on_mac.git
 //Merge master files into branch
 1. Write: git checkout branch_name
 
-2. Write git merge master 
+2. Write: git merge master 
 
 
 //Push files to Repo Git (master/branch)
