@@ -37,6 +37,9 @@ example: git clone https://github.com/ariktwena/git_project_on_mac.git
 
 2. Write: git merge master 
 
+//Delete brance
+1. git branch -d branch_name
+
 
 //Push files to Repo Git (master/branch)
 1. Got to the git folder from the Terminal
