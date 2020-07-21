@@ -14,7 +14,7 @@ example: git clone https://github.com/ariktwena/git_project_on_mac.git
 5. GitHub will create a folder with the repository name, and a invisible .git file inside
 
 
-//Push files to Repo Git
+//Push files to Repo Git (master)
 1. Got to the git folder from the Terminal
 
 2. Copy paste your files to the folder (User Terminal or Finder)
