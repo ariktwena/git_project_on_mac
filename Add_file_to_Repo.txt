@@ -81,6 +81,14 @@ To exit if you forget a message, write: wq (enter)
 3. Write a Repo name. Make it private on/off. Paste the Repo URL into the Remote and replace "origin"
 
 
+//Add files from directory to Git Repo
+//See: https://www.pluralsight.com/guides/deploying-github-pages-with-create-react-app
+1. Go to folder in Terminal and write: git init
+
+2. Commit files to the Repo SSH: git remote add origin git@github.com:ariktwena/monsters-live-page.git (SSH)
+
+3. Push to master, write: git push -u origin master
+
 
 
 
